@@ -36,3 +36,4 @@ with open(input_filename, 'r') as f_in:
     with open(output_filename, 'wb') as f_out:
         f_out.write(str.encode('<?xml version="1.0" encoding="UTF-8" ?>'))
         f_out.write(data)
+
